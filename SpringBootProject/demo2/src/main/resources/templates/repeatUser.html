@@ -1,0 +1,22 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <title>login</title>
+    <link rel="stylesheet" th:href="@{~/static/login.css}"/>
+</head>
+
+<body>
+<div class="container">
+    <div class="login-wrapper">
+        <div class="header">Tip</div>
+        <div class="form-wrapper">
+            <p>已存在该账号或输入俩次密码不一致，请点击返回重新注册</p>
+            <div class="msg">
+                Don't have account?<a th:href="@{register}">Sign up</a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
