@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+    padding: 0;
+    margin: 0;
+    letter-spacing: .05em;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    background-image: linear-gradient(to right, #fbc2eb, #a6c1ee);
+}
+
+.register-wrapper {
+    background-color: #fff;
+    width: 250px;
+    height: 500px;
+    border-radius: 25px;
+    padding: 0 50px;
+    position: relative;
+    left: 35%;
+    top: 10%;
+}
+
+.register-wrapper .header {
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 200px;
+}
+
+.register-wrapper .form-wrapper .input-item {
+    width: 250px;
+    height: 15px;
+    border: 0;
+    padding: 10px;
+    border-bottom: 1px solid #A69B9B;
+}
+
+.register-wrapper .form-wrapper .input-item::placeholder {
+    text-transform: uppercase;
+}
+
+.register-wrapper .form-wrapper .btn {
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    margin-top: 40px;
+    background-image: linear-gradient(to right, #a6c1ee, #fbc2eb);
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.container .form-wrapper .msg {
+    text-align: center;
+    line-height: 120px;
+}
+
+.container .form-wrapper .msg a {
+    text-decoration-line: none;
+    color: #515CAA;
+}
